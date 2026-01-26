@@ -1,3 +1,3 @@
 a = int(input("Enter  the 1st no.: "))
 b = int(input("Enter the 2nd no. : "))
-print("The Floor division (//) is : " , a // b)
+print("Floor division (//) is : " , a // b)
