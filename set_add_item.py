@@ -3,3 +3,7 @@ data = {"name" , "Riya" , 100 , "Suresh" , 500}
 data.add("Amit")
 data.add(800)
 print("Updated data set:", data)
+
+#add duplicate item to the set
+data.add("Riya")
+print("Updated data set after adding duplicate item:", data)
