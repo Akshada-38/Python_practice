@@ -21,5 +21,5 @@ print("After removing last item using popitem() method:", dict1)
 
 #Method 4: Using clear() method
 dict1.clear()
-print("After clearing the dictionary using clear() method:", dict1)
+print("After clearing the dictionary using clear() method :", dict1)
 
