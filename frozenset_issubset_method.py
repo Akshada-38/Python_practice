@@ -1,0 +1,5 @@
+a = frozenset({1, 2})
+b = frozenset({1, 2, 3})
+print("Is subset (a <= b):", a.issubset(b))
+print("Is subset (a <= b):", a <= b)
+print("Is proper subset (a < b):", a < b)
