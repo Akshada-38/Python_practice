@@ -1,0 +1,5 @@
+a = frozenset({1, 2, 3})
+b = frozenset({1, 2})
+print("Is superset (a >= b):", a.issuperset(b))
+print("Is superset (a >= b):", a >= b)
+print("Is proper superset (a > b):", a > b)
