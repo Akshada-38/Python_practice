@@ -1,0 +1,5 @@
+a = frozenset({1, 2})
+b = frozenset({3, 4})
+c = frozenset({2, 3})
+print("Is disjoint (a & b):", a.isdisjoint(b))
+print("Is disjoint (a & c):", a.isdisjoint(c))
