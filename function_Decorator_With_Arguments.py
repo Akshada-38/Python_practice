@@ -13,6 +13,6 @@ def changecase(n):
 
 @changecase(1)
 def myfunction():
-  return "Hello Linus"
+  return "Hello  Linus"
 
 print(myfunction())
