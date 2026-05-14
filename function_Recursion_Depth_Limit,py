@@ -1,0 +1,13 @@
+# Python has a limit on how deep recursion can go. The default limit is usually around 1000 recursive calls.
+# Example
+# Check the recursion limit:
+
+import sys
+print(sys.getrecursionlimit())
+
+
+# If you need deeper recursion, you can increase the limit, but be careful as this can cause crashes:
+# Example
+import sys
+sys.setrecursionlimit(2000)
+print(sys.getrecursionlimit())
