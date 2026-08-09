@@ -1,0 +1,14 @@
+import re
+
+txt = "hello planet"
+
+#Search for a sequence that starts with "he", followed by 0 or more  (any) characters, and an "o":
+
+x = re.findall("he.*o", txt)
+
+print("Original string x:", txt)
+print("After RegEX of '*' using x is:", x)
+
+
+
+
