@@ -1,0 +1,5 @@
+#Use " " (a space) to insert a space before positive numbers and a minus sign before negative numbers:
+
+txt = f"The temperature is between {-3: } and {7: } degrees celsius."
+
+print(txt)
