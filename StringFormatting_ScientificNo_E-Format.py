@@ -1,5 +1,5 @@
-#Use "e" to convert a number into scientific number format (with a lower-case e):
+#Use "E" to convert a number into scientific number format (with an upper-case E):
 
-txt = f"We have {5:e} chickens."
+txt = f"We have {5:E} chickens."
 
 print(txt)
